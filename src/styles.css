@@ -12,35 +12,35 @@ body {
   }
   
   .form-container {
-    background-color: rgba(255, 255, 255, 0.5); /* Formun arka plan rengi, %50 saydamlık */
-    padding: 20px; /* Formun kenar boşlukları */
-    border-radius: 10px; /* Formun kenar yuvarlaklığı */
-    opacity: 0.9; /* Formun genel saydamlık değeri */
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 20px;
+    border-radius: 10px; 
+    opacity: 0.9; 
     
   }
   
   .form-container input[type="text"],
   .form-container textarea,
   .form-container input[type="submit"] {
-    opacity: 1; /* Input alanları ve butonlar için saydamlık değeri */
+    opacity: 1;
   }
   .form-container {
-    position: fixed; /* Formun sayfanın diğer öğelerinden üstte durması */
-    top: 55%; /* Formun yüksekliğinin ekranın yarısı kadar aşağıda olması */
-    left: 50%; /* Formun genişliğinin ekranın yarısı kadar sağda olması */
-    transform: translate(-50%, -50%); /* Formun tam ortalanması */
-    background-color: rgba(255, 255, 255, 0.5); /* Formun arka plan rengi, %50 saydamlık */
+    position: fixed;
+    top: 55%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #f4efef;
-    padding: 30px; /* Formun kenar boşlukları */
-    border-radius: 10px; /* Formun kenar yuvarlaklığı */
+    padding: 30px;
+    border-radius: 10px;
   }
  
   .header {
-    background-color: rgba(255, 255, 255, 0.75); /* Başlık arka plan rengi, beyaz (%50 saydamlık) */
-    /* Diğer stil ayarları */
+    background-color: rgba(255, 255, 255, 0.75);
+    
   }
 
   @media (max-width: 768px) {
-    /* Küçük ekranlara özel stiller burada */
+  
   }
   
