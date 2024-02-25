@@ -48,14 +48,14 @@
     padding: 12px;
     border: 1px solid #f4efef;
     border-radius: 12px;
-    background-color: rgba(208, 203, 203, 0.477); /* Şeffaf beyaz arka plan */
+    background-color: rgba(208, 203, 203, 0.477); 
   }
 
   .register-form {
    
-    top: 48%; /* Formun yüksekliğinin ekranın yarısı kadar aşağıda olması */
-    left: 60%; /* Formun genişliğinin ekranın yarısı kadar sağda olması */
-    transform: translate(+420%, -50%); /* Formun tam ortalanması */
+    top: 48%;
+    left: 60%; 
+    transform: translate(+420%, -50%); 
     
   
   }
