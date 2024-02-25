@@ -8,9 +8,9 @@ function RegisterForm({ onRegistration }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Kullanıcı kaydını işle
+    
     onRegistration(username);
-    // Kayıt işlemi başarılı olduğunda registeredUser state'ini güncelle
+    
     setRegisteredUser(username);
   };
 
