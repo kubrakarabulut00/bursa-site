@@ -1,0 +1,64 @@
+
+
+.register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #dddcdc;
+    border-radius: 5px;
+    background-color: #f2e6e6;
+  }
+  
+  .register-form h3 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .register-form label {
+    font-weight: bold;
+  }
+  
+  .register-form input[type="text"],
+  .register-form input[type="password"] {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 2px;
+    border: 1px solid #5d11f4;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  .register-form button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0556ae;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .register-form button:hover {
+    background-color: #2060a5;
+  }
+  
+  .register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 12px;
+    border: 1px solid #f4efef;
+    border-radius: 12px;
+    background-color: rgba(208, 203, 203, 0.477); /* Şeffaf beyaz arka plan */
+  }
+
+  .register-form {
+   
+    top: 48%; /* Formun yüksekliğinin ekranın yarısı kadar aşağıda olması */
+    left: 60%; /* Formun genişliğinin ekranın yarısı kadar sağda olması */
+    transform: translate(+420%, -50%); /* Formun tam ortalanması */
+    
+  
+  }
+ 
+
+  
