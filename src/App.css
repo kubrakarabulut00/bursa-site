@@ -1,15 +1,15 @@
 
 .welcome-text {
-  color: rgb(0, 5, 0); /* Metin rengini beyaz yapar */
+  color: rgb(0, 5, 0); 
 }
-/* Navbar stilini güncelleyelim */
+
 .navbar {
-  background-color: #4CAF50; /* Yeşil tonunda bir arkaplan */
+  background-color: #4CAF50; 
 }
 
 .navbar {
   width: 100vw; height: 10vh;
-  position: fixed; /* Navbar'ın sabit konumda olmasını sağlar */
+  position: fixed;
   top: 0;
  }
 
@@ -34,46 +34,45 @@
 
 
 .home-content {
-  background-color: #043108; /* Hafif yeşil tonunda bir arkaplan */
+  background-color: #043108; 
 }
 
 .header {
-  background-color: rgba(255, 255, 255, 0.20); /* Başlık arka plan rengi, beyaz (%50 saydamlık) */
+  background-color: rgba(255, 255, 255, 0.20); 
   /* Diğer stil ayarları */
 }
 
-/* Şikayet ve öneri formunun arkaplanını güncelleyelim */
+
 .form-container {
-  background-color: #b9a2c3; /* Hafif yeşil tonunda bir arkaplan */
+  background-color: #b9a2c3;
 }
 
-/* Form içindeki butonun rengini güncelleyelim */
+
 .form-container input[type="submit"] {
-  background-color: #0f4110; /* Yeşil tonunda bir buton */
-  color: white; /* Beyaz renkli yazı */
+  background-color: #0f4110; 
+  color: white; 
 }
 
-/* Form içindeki butonun hover rengini güncelleyelim */
+
 .form-container input[type="submit"]:hover {
-  background-color: #093f0c; /* Koyu yeşil tonunda bir hover rengi */
+  background-color: #093f0c; 
 }
 
 .bursa-title {
-  font-family: Arial, sans-serif; /* Varsayılan bir font kullanabilirsiniz */
-  font-size: 48px; /* Başlık font boyutu */
-  color: #054bfe; /* Metin rengi beyaz */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Gölgeli metin efekti */
+  font-family: Arial, sans-serif; 
+  font-size: 48px; 
+  color: #054bfe;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* App.css */
 
 .login-button {
-  background-color: #007bff; /* Örnek bir arka plan rengi */
-  color: #fff; /* Metin rengi */
-  padding: 8px 16px; /* Yastıklama */
-  border: none; /* Kenarlık yok */
-  border-radius: 4px; /* Köşeleri yuvarla */
-  cursor: pointer; /* Kursoru işaretçi olarak ayarla */
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
 }
 
 .App {
