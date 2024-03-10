@@ -7,8 +7,8 @@ import Home from './components/Home';
 import ComplaintForm from './components/ComplaintForm';
 import MyComponent from './components/MyComponent';
 import RegisterForm from './RegisterForm';
-import './RegisterForm'
 import LoginButton from './LoginButton';
+import muhtarliklar from './data/muhtarliklar.json';
 import './App.css';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
               <h2><span class="logo-default"> <img src="https://www.bursa.bel.tr/assets/images/logo_dark1.png" width="130px" alt="Bursa " />
               </span> Ana Sayfa</h2>
             </Link>
-          
+               
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -37,10 +37,12 @@ function App() {
                   
                      
                 </li>
+               
               </ul>
             </div>
           </div>
         </nav>
+        
 
         <div className="container mt-3">
           <Routes>
@@ -50,7 +52,7 @@ function App() {
           </Routes>
         
         <LoginButton />
-        
+           
           
       
           <div className="row justify-content-center">
@@ -60,7 +62,9 @@ function App() {
           </div>
           
           <ComplaintForm />
+
           <MyComponent />
+          
         </div>
       </div>
     </Router>

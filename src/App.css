@@ -9,10 +9,25 @@
 
 .navbar {
   width: 100vw; height: 10vh;
-  position: fixed;
+  position: fixed; 
   top: 0;
  }
 
+ .navbar {
+  background-color: #4CAF50;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  top: 0;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f0f0;
+}
 
 
 
@@ -34,17 +49,16 @@
 
 
 .home-content {
-  background-color: #043108; 
+  background-color: #043108;
 }
 
 .header {
   background-color: rgba(255, 255, 255, 0.20); 
-  /* Diğer stil ayarları */
+  
 }
 
-
 .form-container {
-  background-color: #b9a2c3;
+  background-color: #b9a2c3; 
 }
 
 
@@ -62,16 +76,17 @@
   font-family: Arial, sans-serif; 
   font-size: 48px; 
   color: #054bfe;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 
+
 .login-button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #007bff; /* Örnek bir arka plan rengi */
+  color: #fff; 
   padding: 8px 16px; 
   border: none; 
-  border-radius: 4px; 
+  border-radius: 4px;
   cursor: pointer; 
 }
 
@@ -110,5 +125,6 @@
     flex: 100%;
   }
 }
+
 
 

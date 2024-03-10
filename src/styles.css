@@ -12,8 +12,8 @@ body {
   }
   
   .form-container {
-    background-color: rgba(255, 255, 255, 0.5); 
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px; 
     border-radius: 10px; 
     opacity: 0.9; 
     
@@ -22,13 +22,13 @@ body {
   .form-container input[type="text"],
   .form-container textarea,
   .form-container input[type="submit"] {
-    opacity: 1;
+    opacity: 1; 
   }
   .form-container {
     position: fixed;
     top: 55%; 
-    left: 50%;
-    transform: translate(-50%, -50%); 
+    left: 50%; 
+    transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #f4efef;
     padding: 30px;
@@ -36,11 +36,11 @@ body {
   }
  
   .header {
-    background-color: rgba(255, 255, 255, 0.75);
-    
+    background-color: rgba(255, 255, 255, 0.75); 
+   
   }
 
   @media (max-width: 768px) {
-  
+   
   }
   
