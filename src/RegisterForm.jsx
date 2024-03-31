@@ -8,14 +8,14 @@ function RegisterForm({ onRegistration }) {
   const [registeredUser, setRegisteredUser] = useState('');
   const [nearestTownHall, setNearestTownHall] = useState(null);
 
-  const jsonURL = './data/muhtarliklar.json'; // Örneğin, JSON dosyası src/data klasöründe olsun
+  const jsonURL = './data/muhtarliklar.json'; 
 
 
   useEffect(() => {
     fetch(jsonURL)
       .then(response => response.json())
       .then(data => {
-        console.log(data); // JSON verilerini kontrol etmek için konsola yazdır
+        console.log(data); 
       })
       .catch(error => {
         console.error('API hatası:', error);
@@ -103,7 +103,7 @@ function RegisterForm({ onRegistration }) {
           <h4>En Yakın Muhtarlık:</h4>
           <p>Adı: {nearestTownHall.name}</p>
           <p>Adres: {nearestTownHall.address}</p>
-          {/* Muhtarlık verilerini göstermek için gerekli diğer bilgileri buraya ekleyebilirsiniz */}
+         
         </div>
       )}
     </div>
